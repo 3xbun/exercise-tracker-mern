@@ -1,1 +1,9 @@
-DELETE http://localhost:3000
+POST http://localhost:5000/exercise/update/5edf4edd4c5bb81a3fdb9a33
+Content-Type: application/json
+
+{
+  "username": "King",
+  "desc": "changeasd",
+  "duration": 20,
+  "date": "2019-04-30T21:19:15.187Z"
+}
